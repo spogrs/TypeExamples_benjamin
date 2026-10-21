@@ -41,7 +41,7 @@ namespace ConsoleApp_typedemo_01
                     Console.Write("Press 1 to save to Solution folder\nPress any key to save to dokuments folder");
                     if (ConsoleKey.D1 == Console.ReadKey(true).Key)
                     { 
-                    saver.Save(@"..\..\..\" + fileName + ".txt");
+                    saver.Save(@"../../../" + fileName + ".txt");
                     }
                     else
                     {

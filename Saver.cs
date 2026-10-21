@@ -17,7 +17,7 @@ namespace TypeExamples
 
         public void Save()
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\" + fileName + ".txt";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/" + fileName + ".txt";
             Console.WriteLine(path);
             Console.ReadKey();
             File.WriteAllText(path, content);
